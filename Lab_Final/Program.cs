@@ -19,11 +19,11 @@ namespace Lab_Final
             //A4 a4 = new A4();
             //a4.Run();
 
-            A5 a5 = new A5();
-            a5.Run();
+            //A5 a5 = new A5();
+            //a5.Run();
 
-            //A6 a6 = new A6();
-            //a6.Run();
+            A6 a6 = new A6();
+            a6.Run();
 
         }
     }
