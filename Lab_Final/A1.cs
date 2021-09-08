@@ -16,8 +16,6 @@ namespace Lab_Final
                 Console.Write("menu :> ");
                 input = Console.ReadLine();
 
-
-
                 if (input.Equals("1"))
                 {
                     Line();
@@ -39,7 +37,7 @@ namespace Lab_Final
             }
         }
 
-        void MenuString()
+        private void MenuString()
         {
             Console.WriteLine("\tMenu");
             Console.WriteLine("1 - Line");
@@ -48,7 +46,7 @@ namespace Lab_Final
             Console.WriteLine("4 - Exit");
             Console.WriteLine("------------");
         }
-        void Line()
+        private void Line()
         {
             try
             {
@@ -67,7 +65,7 @@ namespace Lab_Final
             }
         }
 
-        void Rectangle()
+        private void Rectangle()
         {
             try
             {
@@ -94,7 +92,7 @@ namespace Lab_Final
             }
         }
 
-        void Triangle()
+        private void Triangle()
         {
             try
             {
@@ -107,10 +105,11 @@ namespace Lab_Final
 
                     for (int j = 1; j <= i; j++)
                     {
-                        if(i == j)
+                        if (i == j)
                         {
                             Console.Write(i);
-                        } else
+                        }
+                        else
                         {
                             Console.Write("*");
                         }

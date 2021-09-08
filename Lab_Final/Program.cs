@@ -6,9 +6,13 @@ namespace Lab_Final
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            A1 a1 = new A1();
-            a1.Run();
+            
+            //A1 a1 = new A1();
+            //a1.Run();
+
+            A2 a2 = new A2();
+            a2.Run();
+
         }
     }
 }
