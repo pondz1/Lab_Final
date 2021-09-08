@@ -13,11 +13,11 @@ namespace Lab_Final
             //A2 a2 = new A2();
             //a2.Run();
 
-            A3 a3 = new A3();
-            a3.Run();
+            //A3 a3 = new A3();
+            //a3.Run();
 
-            //A4 a4 = new A4();
-            //a4.Run();
+            A4 a4 = new A4();
+            a4.Run();
 
             //A5 a5 = new A5();
             //a5.Run();
